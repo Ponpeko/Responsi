@@ -20,12 +20,12 @@ namespace Responsi1
             karyawan2.printData(2);
 
             Console.WriteLine("\n\nAsyiiiik Kenaikan Gaji 10% !!!\n");
+            
+            karyawan1.naikGaji();
+            karyawan2.naikGaji();
 
             Console.WriteLine("No NIK \t\t Nama \t\tGaji Bulanan");
             Console.WriteLine("----------------------------------------");
-
-            karyawan1.naikGaji();
-            karyawan2.naikGaji();
 
             karyawan1.printData(1);
             karyawan2.printData(2);
